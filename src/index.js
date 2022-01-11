@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import ZipCodeSearch from './ZipCodeSearch';
-import reportWebVitals from './reportWebVitals';
-import CitySearch from './CitySearch'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import ZipCodeSearch from "./ZipCodeSearch";
+import reportWebVitals from "./reportWebVitals";
+import CitySearch from "./CitySearch";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <ZipCodeSearch /> */}
-    <CitySearch/>
+    <ZipCodeSearch />
+    {/* <CitySearch /> */}
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
