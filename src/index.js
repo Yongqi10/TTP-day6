@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ZipCodeSearch from './ZipCodeSearch';
 import reportWebVitals from './reportWebVitals';
+import CitySearch from './CitySearch'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <ZipCodeSearch /> */}
+    <CitySearch/>
   </React.StrictMode>,
   document.getElementById('root')
 );
